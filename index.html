@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title>MoviePop</title> 
+  <link rel="stylesheet" href="styles.css" /> 
+  <link rel="icon" type="image/x-icon" href="movie-min.png"> <!-- Länk till sidans ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> <!-- Länk till Font Awesome -->
+</head>
+
+<body>
+
+  <!-- Navbar-sektionen -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo"><img src="movie-min.png" alt="MoviePop Logo" id="logo-image"></a> <!-- Logotyp och länk till startsidan -->
+
+      <!-- Mobilmenyknapp -->
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span><span class="bar"></span> <!-- Tre linjer som representerar mobilmenyikonen -->
+      </div>
+
+      <!-- Meny med länkar -->
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a> <!-- Länk till startsidan -->
+        </li>
+
+        <li class="navbar__item">
+          <a href="#newsWatch" class="navbar__links" id="news-page">News</a> <!-- Länk till nyhetssidan -->
+        </li>
+
+        <li class="navbar__item">
+          <a href="#filmList" class="navbar__links" id="film-page">Films</a> <!-- Länk till filmlistan -->
+        </li>
+
+        <li class="navbar__btn">
+          <a href="#subscription" class="subscription-btn" id="subscription">Subscription</a> <!-- Länk till prenumerationssidan -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- introPage-sektionen -->
+  <div class="introPage" id="home">
+    <div class="introPage__container">
+      <h1 class="introPage__heading">Welcome to MoviePop <span>We Love Film</span></h1>
+    </div>
+  </div>
+
+  <!-- newsWatch-sektionen -->
+  <div class="newsWatch" id="newsWatch">
+
+    <div class="newsWatch__container">
+      <div class="newsWatch__img--container">
+        <div class="newsWatch__img--poster"><img src="Dune-min.jpg" alt="Dune 2" class="filmList__img"></div> <!-- Bild och länk till filmen Dune 2 -->
+      </div>
+
+      <div class="newsWatch__content">
+        <h2>Have you watched Dune 2 yet?</h2> 
+        <button class="newsWatch__btn"><a href="https://www.youtube.com/watch?v=n9xhJrPXop4">WATCH NOW</a></button> <!-- Knapp för att titta på filmen -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- filmList-sektionen -->
+  <div class="filmList" id="filmList">
+
+    <div class="filmList__wrapper">
+
+      <!-- Lista med filmaffischer och knappar -->
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="arrival-min.jpg" alt="Arrival" class="filmList__img"> 
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="Batman-min.jpg" alt="Batman" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="inception-min.png" alt="Inception" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="Interstellar-min.jpg" alt="Interstellar" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="Iron man-min.jpg" alt="Iron Man" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="john wick-min.jpg" alt="John Wick" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="Mission Impossible-min.jpg" alt="Mission Impossible" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="Jurassic World-min.jpg" alt="Jurassic World" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="the matrix-min.png" alt="The Matrix" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="Top Gun Maverick-min.jpg" alt="Top Gun Maverick" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="the martian-min.png" alt="The Martian" class="filmList__img">
+        </button>
+      </div>
+
+      <div class="filmList__poster">
+        <button class="filmList__btn">
+          <img src="Dune-min.jpg" alt="Dune 2" class="filmList__img">
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer-sektionen -->
+  <div class="footer__container">
+
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+
+      <!-- Kontakt sektionen -->
+        <div class="footer__link--items">
+          <h2>Contact Us</h2> 
+          <a href="index.html">Contact</a> <!-- Länk till kontaktinformation -->
+          <a href="index.html">Support</a> <!-- Länk till supportinformation -->
+          <a href="index.html">About us</a> <!-- Länk till information om företaget -->
+          <a href="index.html">Cookiepolicy</a> <!-- Länk till sidans cookiepolicy -->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Sociala medieikoner och rättigheter -->
+    <section class="social__media">
+      <div class="social__media--wrap">
+
+        <p class="marcus__rights"> Marcus.Persson Group © 3079. All rights reserved</p> 
+        <div class="social__icons">
+
+          <a href="https://www.facebook.com/ntiorebro/?locale=sv_SE" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a> <!-- Länk till Facebook-sidan -->
+          <a href="https://www.instagram.com/ntiorebro/" class="social__icon--link"><i class="fab fa-instagram"></i></a> <!-- Länk till Instagram-sidan -->
+          <a href="https://www.youtube.com/@ntigymnasiet1039" class="social__icon--link"><i class="fab fa-youtube"></i></a> <!-- Länk till YouTube-kanalen -->
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script> <!-- Länk till JavaScript-filen för sidans funktionalitet, längre ned = snabbare prestanda läste jag -->
+
+</body>
+</html>
